@@ -10,3 +10,9 @@ Executed the ````ps```` command with ````-ef```` command to check all the runnin
 
 
 # killing Process
+kill command is used to stop a running process by executing kill PID
+
+called the ps command to check all running processes and found the dont_run process. Noted its PID and executed the kill command. executed the /challenge/run process to  get the flag.
+
+
+#
