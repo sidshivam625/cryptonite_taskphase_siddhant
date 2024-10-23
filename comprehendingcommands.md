@@ -15,3 +15,29 @@ executed the ````cat```` command with the absolute path given and got the flag
 used ``grep`` command to search for ``pwn.college`` in the `/flag` file and found the flag.
 
 ## listing files
+Learnt the use of ``ls ``which lists the contents of the cwd.
+The challenge hid the flag in random file in the ``challenge`` folder. Used ``ls`` to find the file. 
+
+
+
+## touching files
+``touch`` is used to create files. The challenge required us to create 2 files using ``touch``.
+
+
+## removing files
+``rm`` command is used to remove files. The challenge created a ``delete_me`` file which was required to be deleted using rm inorder to get the flag.
+
+## hidden files
+Learnt that some files can be hidden from ``ls`` by simply putting ``.`` infornt of the filename.
+Hidden files can be listed by using ``ls -a``.
+
+
+## An epic filesystem quest
+
+## making directories 
+Learnt that ``mkdir ``can be used to create directories. Challenge specified to make a diretory and create a file in that. A file can then be created using ` touch` command as learnt earlier
+
+## finding files
+
+
+## linking files
