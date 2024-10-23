@@ -4,6 +4,7 @@ Learnt that all filesystems start with ```/``` which is used to access a system'
 
 Invoked ```/pwn``` to get the flag
 
+
 ## Program and  absolute paths
 Learnt to access program using its absolute path .
 
@@ -36,9 +37,23 @@ As given in the hint the relative path starts with c, so executed ```challenge/r
 
 ## explicit relative paths, from /
 
+Learnt that ``` .``` symbol in a path represents the current directory.
+This means that when we use `` ./ ``before a directory or file name, we're explicitly stating that we're referring to something in the current directory.
+For example, if we're in the ``/challenge`` directory and want to refer to a file named example.txt, we could use:
+example.txt (implicitly in the current directory)
+./example.txt (explicitly in the current directory)
+Both paths point to the same file, but the second one uses ``.`` to clarify that the file is in the current directory.
+
+
 ## implicit relative path
+Linux explicitly avoids automatically looking in the current directory when you provide a "naked" path. 
+
+Therefore after switching to `/challenge` as cwd, `run` argument isnt executed directly, rather it requires a relative path to be executed.
+
+
 
 ## home sweet home
+
 
 
 
