@@ -2,6 +2,7 @@
 ## cat: not the pet, but the command!
 Learnt that cat is used for reading the contents of a file. It can also concatenate multiple files. 
 
+
 Used ``` cat /flag``` command as directed to get the flag.
 ## catting absolute paths
 ````cat```` can be used to read files outside cwd by specyfying absolute path of file as cat's argument.
