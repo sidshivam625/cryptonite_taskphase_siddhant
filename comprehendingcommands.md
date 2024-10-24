@@ -3,6 +3,7 @@
 Learnt that cat is used for reading the contents of a file. It can also concatenate multiple files. 
 
 
+
 Used ``` cat /flag``` command as directed to get the flag.
 ## catting absolute paths
 ````cat```` can be used to read files outside cwd by specyfying absolute path of file as cat's argument.
@@ -14,6 +15,7 @@ executed the ````cat```` command with the absolute path given and got the flag
 ## grepping for a needle in a haystack 
 ````grep```` command is used to search for contents in a file
 used ``grep`` command to search for ``pwn.college`` in the `/flag` file and found the flag.
+
 
 ## listing files
 Learnt the use of ``ls ``which lists the contents of the cwd.
@@ -41,4 +43,14 @@ Learnt that ``mkdir ``can be used to create directories. Challenge specified to 
 ## finding files
 
 
+
 ## linking files
+
+> A hard link is when you address your appartment using multiple addresses that all lead directly to the same place (e.g., Apt 2 vs Unit 2).
+
+> A soft link is when you move appartments and have the postal service automatically forward your mail from your old place to your new place.
+ 
+> Symbolic links are created with the ln command with the -s argument
+> 
+> syntax :`` ln -s <target-file> <pointing-file>``
+> 
