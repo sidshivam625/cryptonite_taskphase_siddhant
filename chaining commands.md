@@ -17,6 +17,7 @@ We know that ``|`` is used between one command's output and a different command'
 piped the output of `x.sh` into `/challenge/solve` as directed and got the flag.
 
 
+
 ## Executable Shell Scripts
 
 If the shell script file is executable , we can simply invoke it via its relative or absolute path without the use of `bash` command. 
